@@ -134,6 +134,47 @@ section {
   position: relative;
 }
 
+
+#footer .social-icons {
+  margin-top: 15px;
+}
+
+#home-slider .social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#home-slider .social-icons ul li a {
+  background-color: transparent;/*rgba(0,0,0,.2);*/
+  border-radius: 4px;
+  line-height: 33px;
+}
+
+#home-slider .social-icons ul li a:hover {
+  color: #fff
+}
+
+#home-slider .social-icons ul li a.envelope:hover {
+  background-color: #CECB26;
+}
+
+#home-slider .social-icons ul li a.facebook:hover {
+  background-color: #3b5999;
+}
+#home-slider .social-icons ul li a.twitter:hover {
+  background-color: #2ac6f7;
+}
+#home-slider .social-icons ul li a.dribbble:hover {
+  background-color: #ff5b92;
+}
+#home-slider .social-icons ul li a.linkedin:hover {
+  background-color: #036dc0;
+}
+#home-slider .social-icons ul li a.tumblr:hover {
+  background-color: #ff6b00;
+}
+
 #home-slider .caption {
   position: absolute;
   top: 50%;
@@ -172,7 +213,7 @@ section {
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   -webkit-transition-property: opacity;
-  transition-property: opacity;
+  transition-property: transparent;
   background-repeat: no-repeat;
   background-size: cover;
   height: 2037px;
@@ -948,7 +989,7 @@ ul.address {
 }
 
 #footer .social-icons ul li a {
-  background-color: rgba(0,0,0,.2);
+  background-color: transparent;/*rgba(0,0,0,.2);*/
   border-radius: 4px;
   line-height: 33px;
 }
