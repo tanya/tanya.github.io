@@ -216,7 +216,8 @@ section {
   transition-property: opacity;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 2037px;
+  height: 100%;/*2037px*/;
+  width: 100%;
 }
 
 .carousel-fade .carousel-inner .item:after {
@@ -226,7 +227,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.7);
+  background: rgba(0,0,0,0.7);
 }
 
 .carousel-fade .carousel-inner .active {
