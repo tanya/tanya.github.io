@@ -1748,6 +1748,7 @@
 	ul.default {
 		list-style: disc;
 		padding-left: 1em;
+    overflow: hidden;
 	}
 
 		ul.default li {
