@@ -1708,13 +1708,13 @@
 
 		.image.avatar48 {
 			width: 100%;
-			height: 100%;
+			/*height: 100%;*/
 			background: #f00;
 		}
 
 			.image.avatar48 img {
 				width: 100%;
-				height: 100%;
+				/*height: 100%;*/
 			}
 
 		.image.fit {
