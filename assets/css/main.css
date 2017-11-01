@@ -1942,13 +1942,19 @@
 		.item header {
 			background: #fff;
 			margin: 0;
-			padding: 1em 0 1em 0;
+			padding: 1em 1em 1em 1em;
 			font-size: 0.8em;
 		}
 
 			.item header h3 {
 				font-size: 1em;
+        line-height: 1.0em;
 			}
+
+      .item header p {
+        font-size: 0.9em;
+        line-height: 2.0em;
+      }
 
 /* Icons */
 
