@@ -2196,12 +2196,16 @@
 				background-color: #f9eff4;
 			}
 
+      #main > section.two-b {
+        background-color: #e3f2ed;
+      }
+
 			#main > section.three {
 				background-color: #ecf1f1;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #fcfae8;
 			}
 
 /* Wide */
