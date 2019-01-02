@@ -153,7 +153,7 @@ input, select, textarea {
 
 	body {
 		background-color: transparent;
-		background-image: linear-gradient(to left, #F0FFF0 15%, #FFFFFF);
+		background-image: linear-gradient(to left, #DCFFFF 15%, #FFFFFF);
 	}
 
 	body, input, select, textarea {
